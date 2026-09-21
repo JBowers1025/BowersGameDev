@@ -87,5 +87,6 @@ offset = Vector2(0, -5)
 position = Vector2(-1, -0.5)
 shape = SubResource("RectangleShape2D_687xy")
 
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
 [connection signal="hurt" from="." to="." method="_on_hurt"]
 [connection signal="pickup" from="." to="." method="_on_pickup"]
